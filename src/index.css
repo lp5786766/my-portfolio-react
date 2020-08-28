@@ -5,7 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(233, 233, 233);
+  background-color: rgb(37, 33, 33);
 }
+
+/* body {
+  font-family: 'Spartan', sans-serif;
+
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
