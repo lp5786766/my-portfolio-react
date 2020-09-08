@@ -11,6 +11,19 @@
 .orange {
   color: rgb(255, 125, 76);
 }
+
+.profile-pic {
+  margin-left: 15px !important;
+}
+
+.profile-info {
+  margin-right: 15px !important;
+}
+.my-bck {
+  background-color: rgb(241, 253, 17);
+  padding: 0px !important;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -31,16 +44,6 @@
   background-repeat: no-repeat;
 }
 
-/* .card-image {
-  width: 100%;
-  height: 100%;
-} */
-/* .card:hover {
-  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
-    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-  transform: translateY(-3px) scale(1.1);
-} */
-
 .photo-grid {
   display: grid;
   gap: 1rem;
@@ -49,51 +52,11 @@
   grid-auto-rows: 293px;
 }
 
-/* Medium screens */
-@media screen and (min-width: 1200px) {
-  .card-tall {
-    grid-row: span 3 / auto;
-  }
-
-  .card-wide {
-    grid-column: span 3 / auto;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .card-tall {
-    grid-row: span 3 / auto;
-  }
-
-  .card-wide {
-    grid-column: span 2 / auto;
-  }
-}
-
-@media screen and (max-width: 991px) {
-
-  
-  .card-tall {
-    grid-row: span 2 / auto;
-  }
-
-  .card-wide {
-    grid-column: span 1 / auto;
-  }
-}
-
 @media screen and (max-width: 375px) {
 
   .photo-grid {
     display: block;
   }
-  /* .card-tall {
-    grid-row: span 1 / auto;
-  }
-
-  .card-wide {
-    grid-column: span 1 / auto;
-  } */
 }
 
 .info {
