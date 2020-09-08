@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Nav';
-import Container from './components/Container'
+
+import Header from './components/Header';
+import Container from './components/Container';
 import AboutMe from './components/AboutMe';
+import MyWorks from './components/MyWorks';
 
 function App() {
   return (
-    <div className="App">
-       
+    <div className='App'>
       <Container>
-      <Nav />
-      <AboutMe />
+        <Header />
+        <AboutMe />
+        <MyWorks />
       </Container>
-    
-     
     </div>
   );
 }
