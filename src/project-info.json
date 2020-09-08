@@ -1,24 +1,27 @@
 [
   {
     "id": 1,
-    "name": "portsmouth-pickup",
-    "img":"./assets/1.png",
+    "name": "Portsmouth Pickup",
+    "img":"https://raw.githubusercontent.com/lp5786766/my-portfolio-react/master/src/assets/1-color.png",
     "repo":"https://github.com/fleshborne/NH-Pickup-Leagues",
-    "url":"https://thawing-dusk-46621.herokuapp.com/"
+    "url":"https://thawing-dusk-46621.herokuapp.com/",
+    "description":"Portsmouth Pickup League is an app designed to help people to find pickup game partners. Users are able to create their own games or join the existing games. Created as a team-project with other developers."
 },
 
   {
     "id": 2,
-    "name": "blue-skies",
-    "img":"https://images.unsplash.com/photo-1526920929362-5b26677c148c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80",
+    "name": "Blue Skies",
+    "img":"https://raw.githubusercontent.com/lp5786766/my-portfolio-react/master/src/assets/2-color.png",
     "repo":"https://github.com/fleshborne/Blue-Skies",
-    "url":"https://fleshborne.github.io/Blue-Skies/"
+    "url":"https://fleshborne.github.io/Blue-Skies/",
+    "description":"Blue Skies is an app that gives you instant access to the US National Parks weather and info. Integrated map makes the search intuitive and very easy to navigate. Created as a team-project with other developers."
 },
   {
     "id": 3, 
-    "name": "burger",
-    "img":"https://images.unsplash.com/photo-1589065761362-4bf298e8b344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1389&q=80",
+    "name": "Burger",
+    "img":"https://raw.githubusercontent.com/lp5786766/my-portfolio-react/master/src/assets/3-color.png",
     "repo":"https://github.com/lp5786766/burger-log",
-    "url":""
+    "url":"",
+    "description":""
 }
 ]

@@ -11,30 +11,29 @@ export default function MyWorks() {
           <img
             className='activator'
             id={project.id}
-            // src='/assets/${project.id}.png'
+            src={project.img}
             alt={project.name}
           />
         </div>
         <div className='card-content'>
-          <span className='card-title activator grey-text text-darken-4'>
+          <span className='card-title activator deep-orange-text text-darken-3'>
             {project.name}
             <i className='material-icons right'>more_vert</i>
           </span>
           <p className='link'>
-            <a href='#'>App</a>
+            <a href={project.url} rel="noopener noreferrer" target="_blank" className="gray" >App</a>
           </p>
-          <p className='link'> | </p>
+          <p className='gray link'> | </p>
           <p className='link'>
-            <a href='#'>Repo</a>
+            <a href={project.repo} rel="noopener noreferrer" target="_blank" className="gray">Repo</a>
           </p>
         </div>
         <div className='card-reveal'>
           <span className='card-title grey-text text-darken-4'>
-            Card Title<i className='material-icons right'>close</i>
+          {project.name}<i className='material-icons right'>close</i>
           </span>
           <p>
-            Here is some more information about this product that is only
-            revealed once clicked on.
+            {project.description}
           </p>
         </div>
       </div>
